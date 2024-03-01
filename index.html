@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>Portal Filmes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="executaPopular()">
+
+    <header class="container header">
+        <div class="row">
+            <div class="col-12 header_area">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6">
+                        <img src="imagens/logo2.png" class="logo">
+                    </div>
+                    <div class="container_nav col-xl-10 col-lg-10 col-md-6 col-sm-6 col-6">
+                        <input type="checkbox" id="menuToggle">
+                        <label for="menuToggle" class="menu-icon">
+                            <i class="fa fa-bars"></i>
+                            <i class="fa fa-times-circle"></i>
+                        </label>
+
+                        <nav class="nav menu1">
+                            <a class="nav-link" href="#lancamentos">Lançamentos</a>
+                            <a class="nav-link" href="#em_destaque">Em Destaque</a>
+                            <a class="nav-link" href="#avaliacoes">Avaliações</a>
+                            <a class="nav-link" href="#entrevistas">Entrevistas & MakingOf</a>
+                            <a class="nav-link" href="#novidades">Novidades</a>
+                            <a class="nav-link" href="pesquisa.html">Sobre</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main">
+
+        <section class="row lancamento" id="lancamentos">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 id="lancamento">Lançamentos</h2>
+                    </div>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner area_lancamento">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NnDGWyfP7q4"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <h3>Velozes e Furiosos 9</h3>
+                                        <p>Em Velozes & Furiosos 9, Dominic Toretto e Letty vivem uma vida pacata ao
+                                            lado de seu filho Brian. Mas eles logo são ameaçados pelo passado de Dom:
+                                            seu irmão desaparecido Jakob. Trata-se de um assassino habilidoso e
+                                            motorista excelente, que está trabalhando ao lado de Cipher. Para
+                                            enfrentá-los, Toretto vai precisar reunir sua equipe novamente.</p>
+                                        <p><b>Diretor: </b>Justin Lin <b>Roteiro: </b>Daniel Casey</p>
+                                        <p><b>Estreia: </b>22 de julho de 2021</p>
+                                        <p><b>Elenco: </b>Vin Diesel | Michelle Rodriguez | Tyrese Gibson</p>
+                                        <span>
+                                            <p style="display: inline"><b>Avaliação: </b></p><img
+                                                src="imagens/avaliacao.png" alt="avaliação"
+                                                style="display: inline; width: 170px;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4lEpxpZqhjc"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <h3>MORTAL KOMBAT</h3>
+                                        <p>Em Mortal Kombat, Shang Tsung, imperador da Exoterra, envia seu melhor
+                                            guerreiro, Sub-Zero, para assassinar o jovem Cole Young. Temendo pela
+                                            segurança da família, Cole vai em busca de Sonya Blade. Logo, ele se
+                                            encontra no templo do Lorde Raiden, um Deus Ancião e protetor do reino da
+                                            Terra, que acolhe aqueles que ostentam a marca. Lá se prepara para lutar em
+                                            uma batalha pelo universo.</p>
+                                        <p><b>Diretor: </b>Simon McQuoid <b>Roteiro: </b>Greg Russo</p>
+                                        <p><b>Estreia: </b>13 de maio de 2021</p>
+                                        <p><b>Elenco: </b>Joe Taslim | Josh Lawson | Lewis Tan</p>
+                                        <span>
+                                            <p style="display: inline"><b>Avaliação: </b></p><img
+                                                src="imagens/avaliacao.png" alt="avaliação"
+                                                style="display: inline; width: 170px;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4ake9I0-6vA"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <h3>Space Jam: Um Novo Legado</h3>
+                                        <p>Sequência do clássico Space Jam - O Jogo do Século, em que a turma dos Looney
+                                            Tunes, liderada por Pernalonga vai atrás do astro dos esportes Michael
+                                            Jordan para deter uma ameaça alienígena. Desta vez, o escolhido é LeBron
+                                            James - que deverá se juntar aos personagens dos desenhos para uma nova
+                                            aventura.</p>
+                                        <p><b>Diretor: </b>Malcolm D. Lee <b>Roteiro: </b>Juel Taylor</p>
+                                        <p><b>Estreia: </b>15 de julho de 2021</p>
+                                        <p><b>Elenco: </b>LeBron James | Don Cheadle | Sonequa Martin-Green</p>
+                                        <span>
+                                            <p style="display: inline"><b>Avaliação: </b></p><img
+                                                src="imagens/avaliacao.png" alt="avaliação"
+                                                style="display: inline; width: 170px;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="row em_destaque" id="em_destaque">
+            <div class="col-12">
+                <div class="row area_titulo">
+                    <div class="col-xl-10 col-lg-9 col-md-8 col-sm-7 col-12">
+                        <h2>populares</h2>
+                    </div>
+                </div>
+                <div class="row" id="tela">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 cartao">
+                        <center><img src="" alt="">
+                            <span class="titulo"></span><br>
+                            <span class="creditos"></span><br>
+                            <span class="avaliacao"></span><br>
+                            <a href="#"></a>
+                        </center>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 cartao">
+                        <center><img src="" alt="">
+                            <span class="titulo"></span><br>
+                            <span class="creditos"></span><br>
+                            <span class="avaliacao"></span><br>
+                            <a href="#"></a>
+                        </center>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 cartao">
+                        <center><img src="" alt="">
+                            <span class="titulo"></span><br>
+                            <span class="creditos"></span><br>
+                            <span class="avaliacao"></span><br>
+                            <a href="#"></a>
+                        </center>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 cartao">
+                        <center><img src="" alt="">
+                            <span class="titulo"></span><br>
+                            <span class="creditos"></span><br>
+                            <span class="avaliacao"></span><br>
+                            <a href="#"></a>
+                        </center>
+                    </div>
+                </div>
+
+                <!--
+<button class="btn btn-dark carregar_mais botao" type="button" data-toggle="collapse" data-target="#maisFilmes" aria-expanded="false" aria-controls="collapseExample">
+                                      + Carregar mais filmes
+                                    </button>
+-->
+            </div>
+        </section>
+
+        <section class="row avaliacoes" id="avaliacoes">
+            <div class="col-12">
+                <div class="row area_titulo">
+                    <div class="col-12">
+                        <h2>Últimas Avaliações</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+                                <div class="foto_de_perfil">
+                                    <img src="imagens/foto_de_perfil1.jpg" alt="Foto de perfil">
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 col-12">
+                                <h3>Fred Augusto</h3>
+                                <p><b>Avaliação:</b> Ótimo portal de filmes, não perco nenhuma novidade graças a vocês,
+                                    continuem fazendo um ótimo trabalho!</p>
+                                <span><img style="display: inline; width: 140px;" src="imagens/avaliacao.png"
+                                        alt="Avaliação">
+                                    <p style="display: inline">24/04/2021</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+                                <div class="foto_de_perfil">
+                                    <img src="imagens/luffy.jpg" alt="Foto de perfil">
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 col-12">
+                                <h3>Luffy123</h3>
+                                <p><b>Avaliação:</b> Eu gostei muito deste site, está me ajudando bastante a conhecer
+                                    novos filmes, as avaliações parecem ser bem fiéis!</p>
+                                <span><img style="display: inline; width: 140px;" src="imagens/avaliacao.png"
+                                        alt="Avaliação">
+                                    <p style="display: inline">23/04/2021</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+                                <div class="foto_de_perfil">
+                                    <img src="imagens/foto_de_perfil3.jpg" alt="Foto de perfil">
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 col-12">
+                                <h3>Catarina</h3>
+                                <p><b>Avaliação:</b> Amei este portal de filmes, por favor continuem a fazer esse ótimo
+                                    trabalho!</p>
+                                <span><img style="display: inline; width: 140px;" src="imagens/avaliacao.png"
+                                        alt="Avaliação">
+                                    <p style="display: inline">23/04/2021</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>
+                                    <button class="btn btn-dark carregar_mais botao" type="button"
+                                        data-toggle="collapse" data-target="#maisAvaliacoes" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        + Carregar mais avaliações
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="collapse" id="maisAvaliacoes">
+                                    <div class="card card-body maisAvaliacoes">
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                                <div class="row">
+                                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+                                                        <div class="foto_de_perfil">
+                                                            <img src="imagens/foto_de_perfil5.jpg" alt="Foto de perfil">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 col-12">
+                                                        <h3>NoobMaster69</h3>
+                                                        <p><b>Avaliação:</b> Gosto muito de ter as notícias em primeira
+                                                            mão, mas gostaria de ver mais notícias sobre o Thor pf</p>
+                                                        <span><img style="display: inline; width: 140px;"
+                                                                src="imagens/avaliacao.png" alt="Avaliação">
+                                                            <p style="display: inline">21/04/2021</p>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                                <div class="row">
+                                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+                                                        <div class="foto_de_perfil">
+                                                            <img src="imagens/foto_de_perfil4.jpg" alt="Foto de perfil">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 col-12">
+                                                        <h3>Samuel W.</h3>
+                                                        <p><b>Avaliação:</b> Muito bom o site, pode melhorar em alguns
+                                                            aspectos mas no geral está ótimo!</p>
+                                                        <span><img style="display: inline; width: 140px;"
+                                                                src="imagens/avaliacao.png" alt="Avaliação">
+                                                            <p style="display: inline">21/04/2021</p>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                                <div class="row">
+                                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+                                                        <div class="foto_de_perfil">
+                                                            <img src="imagens/foto_de_perfil6.jpg" alt="Foto de perfil">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 col-12">
+                                                        <h3>William</h3>
+                                                        <p><b>Avaliação:</b> As novidades são íncriveis kkkk, parebéns a
+                                                            todos do portal de filmes, gosto muito deste site!</p>
+                                                        <span><img style="display: inline; width: 140px;"
+                                                                src="imagens/avaliacao.png" alt="Avaliação">
+                                                            <p style="display: inline">20/04/2021</p>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row entrevistas" id="entrevistas">
+            <div class="col-12">
+                <div class="row area_titulo">
+                    <div class="col-12">
+                        <h2>Entrevistas & Making of</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 entrevista">
+                        <iframe width="350" height="195" src="https://www.youtube.com/embed/1hw6AYLQCwQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h4><b>Filme:</b> Viúva Negra</h4>
+                        <p><b>Diretor:</b> Cate Shortland <b>Roteiro:</b> Eric Pearson <br><b>Estreia:</b> 9 de julho de
+                            2021</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 entrevista">
+                        <iframe width="350" height="195" src="https://www.youtube.com/embed/nHB-SdIAFeI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h4><b>Filme:</b> Velozes & Furiosos 9</h4>
+                        <p><b>Diretor:</b> Justin Lin <b>Roteiro:</b> Daniel Casey <br><b>Estreia:</b> 22 de julho de
+                            2021</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 entrevista">
+                        <iframe width="350" height="195" src="https://www.youtube.com/embed/VALQDQKF3OQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h4><b>Filme:</b> Space Jam: Um Novo Legado</h4>
+                        <p><b>Diretor:</b> Malcolm D. Lee <b>Roteiro:</b> Juel Taylor <br><b>Estreia:</b> 15 de julho de
+                            2021</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>
+                                    <button class="btn btn-dark carregar_mais botao" type="button"
+                                        data-toggle="collapse" data-target="#maisEntrevistas" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        + Carregar mais filmes
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="collapse" id="maisEntrevistas">
+                                    <div class="card card-body maisFilmes">
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 entrevista">
+                                                <iframe width="350" height="195"
+                                                    src="https://www.youtube.com/embed/SY8NPsNXnpU"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                                <h4><b>Filme:</b> O Esquadrão Suicida</h4>
+                                                <p><b>Diretor:</b> James Gunn <b>Roteiro:</b> James Gunn
+                                                    <br><b>Estreia:</b> 5 de agosto de 2021</p>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 entrevista">
+                                                <iframe width="350" height="195"
+                                                    src="https://www.youtube.com/embed/ryrwjO7rBFU"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                                <h4><b>Filme:</b> Invocação do Mal 3: A Ordem do Demônio</h4>
+                                                <p><b>Diretor:</b> Michael Chaves <b>Roteiro:</b> David Leslie
+                                                    <br><b>Estreia:</b> 3 de junho de 2021</p>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 entrevista">
+                                                <iframe width="350" height="195"
+                                                    src="https://www.youtube.com/embed/j-0nS0tYKwc"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                                <h4><b>Filme:</b> Mortal Kombat</h4>
+                                                <p><b>Diretor:</b> Simon McQuoid <b>Roteiro:</b> Greg Russo
+                                                    <br><b>Estreia:</b> 13 de maio de 2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container footer" id="novidades">
+        <div class="row novidade">
+            <div class="col-xl-8 col-lg-8 col-md-7 col-sm-7 col-12">
+                <h2>Novidades</h2>
+                <div class="row novidades">
+                    <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
+                        <img src="imagens/novidade1.jpg" alt="Imagem Mortal Kombat">
+                    </div>
+                    <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <h5>23/04/2021 - Mortal Kombat: o que a crítica está achando do filme? Descubra!</h5>
+                        <p>De acordo com Rollin Bishop, do site ComicBook, a violência mostrada no filme é, de fato, o
+                            ponto alto ... No entanto, como ponto negativo, Bishop levanta a ...</p>
+                        <div class="tags"><button type="" class="btn btn-secondary botao">Ação</button><button type=""
+                                class="btn btn-secondary botao">Artes Marciais</button></div>
+                    </div>
+                </div>
+                <div class="row novidades">
+                    <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
+                        <img src="imagens/novidade2.jpg" alt="Imagem Invocação do Mal 3">
+                    </div>
+                    <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <h5>22/04/2021 - Invocação do Mal 3 ganha novo trailer aterrorizante, veja!</h5>
+                        <p>O filme continua a história de uma das franquias de terror mais populares dos últimos anos e
+                            tem estreia prevista para ...</p>
+                        <div class="tags"><button type="" class="btn btn-secondary botao">Terror</button><button type=""
+                                class="btn btn-secondary botao">Franquia</button></div>
+                    </div>
+                </div>
+                <div class="row novidade">
+                    <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
+                        <img src="imagens/novidade3.jpg" alt="Imagem Doutor Octopus">
+                    </div>
+                    <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <h5>19/04/2021 - Homem-Aranha 3: Alfred Molina fala sobre o seu retorno à franquia</h5>
+                        <p>A trilogia do Homem-Aranha com Tobey Maguire é ainda uma das produções mais marcantes entre
+                            as adaptações de quadrinhos. E parte disso se deve ao filme Homem-Aranha 2, de 2004.</p>
+                        <div class="tags"><button type="" class="btn btn-secondary botao">Marvel</button><button type=""
+                                class="btn btn-secondary botao">Super-Herói</button><button type=""
+                                class="btn btn-secondary botao">Ação</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 col-12 icones">
+                <h2>Sobre</h2>
+                <p>Olá mundo, meu nome é Heron Silva, tenho 28 anos. Este portal de filmes foi desenvolvido como
+                    trabalho da disciciplina Desenvolvimento de Interfaces Web na PUC Minas Betim, com o intuito de
+                    praticar o Replit e o layout grid.</p>
+                <h2>Editorial</h2>
+                <p><i class="fa fa-user"></i><b> Redação:</b> Heron Silva</p>
+                <p><i class="fa fa-user"></i><b> Pesquisa:</b> Heron Silva</p>
+                <p><i class="fa fa-user"></i><b> Gerente Geral:</b> Heron Silva</p>
+                <h3>Redes sociais:</h3>
+                <div id="icones"><a href="https://www.instagram.com/meherons/"><i
+                            class="fa fa-twitter"></i></a><a href="https://www.instagram.com/meherons/"><i
+                            class="fa fa-instagram"></i></a></div>
+            </div>
+        </div>
+        <div class="row footer_area">
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                Copyright 2024 - Disciciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC MINAS</b>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                <img src="imagens/logo2.png" class="logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
